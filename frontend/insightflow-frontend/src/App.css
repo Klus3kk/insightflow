@@ -121,3 +121,30 @@ body {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+
+/* A/B Testing Section */
+.ab-tests {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.ab-tests button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ab-tests button:hover {
+  background-color: #357abd;
+}
+
+/* A/B Results Section */
+.ab-results {
+  text-align: center;
+  margin: 2rem 0;
+}
